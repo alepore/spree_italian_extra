@@ -1,5 +1,11 @@
 en:
   spree:
-    tax_code: "Tax Code (or VAT)"
-  invalid_tax_code: "Invalid Tax Code"
-  missing_tax_code: "Missing Tax Code"
+    tax_code: Tax Code (or VAT)
+    invalid_tax_code: Invalid
+    missing_tax_code: Missing
+  activerecord:
+    attributes:
+      spree/order/bill_address:
+        tax_code: Tax Code (or VAT)
+      spree/order/ship_address:
+        tax_code: Tax Code (or VAT)
