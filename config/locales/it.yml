@@ -1,5 +1,11 @@
 it:
   spree:
-    tax_code: "Codice Fiscale o Partita Iva"
-  invalid_tax_code: "Codice Fiscale Non Valido"
-  missing_tax_code: "Codice Fiscale Mancante"
+    tax_code: Codice Fiscale o Partita Iva
+    invalid_tax_code: Non Valido
+    missing_tax_code: Mancante
+  activerecord:
+    attributes:
+      spree/order/bill_address:
+        tax_code: Codice Fiscale o Partita Iva
+      spree/order/ship_address:
+        tax_code: Codice Fiscale o Partita Iva
