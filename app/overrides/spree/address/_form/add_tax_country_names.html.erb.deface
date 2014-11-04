@@ -1,0 +1,4 @@
+<!-- insert_after 'div' -->
+<script type="text/javascript">
+  var tax_code_country_names = <%= tax_code_country_names.to_json.html_safe %>
+</script>

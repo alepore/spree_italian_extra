@@ -3,7 +3,7 @@ Spree Italian Extra
 
 A collection of required things for an italian ecommerce:
 
-* a tax code field for Spree::Address
+* a tax code field for Spree::Address for a specific zone
 * an updated list of italian provinces
 
 [Gorlami!](http://www.youtube.com/watch?v=krtnt191Drg)
@@ -11,6 +11,15 @@ A collection of required things for an italian ecommerce:
 Installation
 ------------
     $ rails g spree_italian_extra:install
+
+Configuration
+-------------
+
+```ruby
+# default values
+Spree::ItalianExtra::Config.use_tax_code = true
+Spree::ItalianExtra::Config.tax_code_zone = 'Italia'
+```
 
 Testing
 -------
