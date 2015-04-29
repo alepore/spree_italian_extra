@@ -1,2 +1,3 @@
 require 'spree_core'
-require 'spree/italian_extra'
+require 'spree_italian_extra/engine'
+
